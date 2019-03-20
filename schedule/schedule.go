@@ -42,7 +42,7 @@ var weekdayToNumeral = map[string]time.Weekday{
 	time.Sunday.String():    time.Sunday,
 }
 
-// Returns a human-friendly string for the schedule definition
+// String returns a human-friendly string for the schedule definition
 func (d Definition) String() string {
 	var b strings.Builder
 
